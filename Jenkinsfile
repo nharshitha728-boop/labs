@@ -5,7 +5,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/nharshitha728-boop/labs.git'
+                git branch: 'main', git 'https://github.com/nharshitha728-boop/labs.git'
             }
         }
 
